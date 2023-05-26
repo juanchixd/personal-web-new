@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.module.scss";
+import BaseLayout from "./components/BaseLayout";
+import { BrowserRouter } from "react-router-dom";
+
+// let docTitle = document.title;
+
+// window.addEventListener("focus", () => {
+//   document.title = docTitle;
+// });
+
+// window.addEventListener("blur", () => {
+//   document.title = "Juan Gonzalez - Come back!";
+// });
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <BaseLayout />
+      </BrowserRouter>
     </div>
   );
 }
