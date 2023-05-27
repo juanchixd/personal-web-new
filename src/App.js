@@ -2,9 +2,12 @@ import React from "react";
 import "./App.module.scss";
 import BaseLayout from "./components/BaseLayout";
 import { BrowserRouter } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 
-<Analytics mode={"production"} />;
+// <Analytics mode={"production"} />;
+import { inject } from "@vercel/analytics";
+
+inject();
 
 // let docTitle = document.title;
 
