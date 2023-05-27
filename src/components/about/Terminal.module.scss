@@ -1,20 +1,20 @@
 @import "../../variables.modules";
 
-i {
-  padding-left: 0.5rem;
+// i {
+//   padding-left: 0.5rem;
 
-  &.red {
-    color: $red;
-  }
+//   &.red {
+//     color: "#FF6057";
+//   }
 
-  &.amber {
-    color: $yellow;
-  }
+//   &.amber {
+//     color: $yellow;
+//   }
 
-  &.green {
-    color: $green;
-  }
-}
+//   &.green {
+//     color: $green;
+//   }
+// }
 
 .terminal {
   p, li {

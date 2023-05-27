@@ -21,11 +21,7 @@ function EmojiBullet(props) {
         >
           {emoji}
         </Box>{" "}
-        <Button
-          variant="outlined"
-          size="medium"
-          href="https://juangonzalez.com.ar"
-        >
+        <Button variant="outlined" size="medium" href="/links">
           Links facultad y demas
         </Button>
       </Box>

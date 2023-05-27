@@ -1,20 +1,18 @@
 import React from "react";
-import LinksBlock from "./LinksBlock";
+import RecordingsBlock from "./RecordingsBlock";
 import { Box, Grid } from "@mui/material";
 import { info } from "../../info/Info";
 
-export default function Links() {
+export default function Recordings() {
   return (
     <Box>
       <Grid container display={"flex"} justifyContent={"center"}>
-        {info.links.map((project, index) => (
+        {info.recordings.map((project, index) => (
           <Grid item xs={12} md={6} key={index}>
-            <LinksBlock
+            <RecordingsBlock
               image={project.image}
               source={project.source}
               title={project.title}
-              sourcem={project.sourcem}
-              sourcep={project.sourcep}
             />
           </Grid>
         ))}

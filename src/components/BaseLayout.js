@@ -3,8 +3,10 @@ import Style from "./BaseLayout.module.scss";
 import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
-import Portfolio from "./portfolio/Portfolio";
+// import Portfolio from "./portfolio/Portfolio";
 import Links from "./links/Links";
+import Error from "./error/error";
+import Recordings from "./recordings/Recordings";
 import { Route, Routes, Navigate } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
@@ -45,7 +47,9 @@ export default function BaseLayout() {
             <Route exact path={"/"} element={<Home />} />
             <Route exact path={"/about"} element={<About />} />
             {/* <Route exact path={"/portfolio"} element={<Portfolio />} /> */}
+            <Route exact path={"/recordings"} element={<Recordings />} />
             <Route exact path={"/links"} element={<Links />} />
+            <Route exact path={"/404"} element={<Error />} />
             <Route path="*" element={<Navigate to="/404" replace />} />
           </Routes>
         </Grid>

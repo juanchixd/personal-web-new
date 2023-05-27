@@ -2,8 +2,9 @@ import React from "react";
 import Style from "./Terminal.module.scss";
 import classNames from "classnames";
 import { Box } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const iconClass = "fa fa-circle";
+// const iconClass = "fa-solid fa-circle";
 
 function Terminal(props) {
   const { text } = props;
@@ -22,9 +23,18 @@ function Terminal(props) {
         borderRadius={"0.5rem 0.5rem 0 0"}
         fontSize={"1rem"}
       >
-        <i className={classNames(iconClass, Style.red)} />
-        <i className={classNames(iconClass, Style.amber)} />
-        <i className={classNames(iconClass, Style.green)} />
+        <FontAwesomeIcon
+          icon="fa-solid fa-circle"
+          style={{ color: "#FF6057" }}
+        />
+        <FontAwesomeIcon
+          icon="fa-solid fa-circle"
+          style={{ color: "#FFBD2E" }}
+        />
+        <FontAwesomeIcon
+          icon="fa-solid fa-circle"
+          style={{ color: "#27C93F" }}
+        />
       </Box>
       <Box
         py={{ xs: "1rem", md: "2rem" }}
