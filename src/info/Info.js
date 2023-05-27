@@ -38,6 +38,11 @@ export const info = {
       label: "telegram",
     },
     {
+      link: "https://vsco.co/juanchi1020",
+      icon: "vsco",
+      label: "vsco",
+    },
+    {
       link: "https://facebook.com/juanchi.b.gonzalez",
       icon: "fa fa-facebook",
       label: "facebook",
