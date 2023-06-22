@@ -37,6 +37,15 @@ export default function About() {
               <Button
                 variant="outlined"
                 size="medium"
+                href="https://youtu.be/DXkz4BdNon8"
+              >
+                Practica quimica 22/06/2023
+              </Button>
+            </p>
+            <p>
+              <Button
+                variant="outlined"
+                size="medium"
                 href="https://www.youtube.com/playlist?list=PLFSba7TrCbZVkHk52K2J0_nXRwLNQYGTF"
               >
                 Clases grabadas 2021
