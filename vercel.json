@@ -64,6 +64,11 @@
       "source": "/infoapli",
       "destination": "https://drive.google.com/drive/folders/1OnFawi7-rk-y-Yk2kckMKoHxV-kf39v-",
       "permanent": true
+    },
+    {
+      "source": "/lepiniat",
+      "destination": "https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA",
+      "permanent": true
     }
   ]
 }
