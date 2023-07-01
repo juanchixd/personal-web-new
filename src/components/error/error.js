@@ -22,6 +22,15 @@ export default function MyCustom404() {
           <h3>BACK TO HOME?</h3>
           <a href="/">YES</a>
           <a href="https://www.youtube.com/watch?v=G3AfIvJBcGo">NO</a>
+          <h5>‎</h5>
+          <p>
+            Si estas buscando una pagina que estaba antes comunicate conmigo por
+            telegram o instagram.
+          </p>
+          <h5>‎</h5>
+          <a href="https://t.me/Juanbgon">Telegram</a>
+          <h5>‎</h5>
+          <a href="https://instagram.com/juanchi1020">Instagram</a>
         </div>
       </section>
     </body>
