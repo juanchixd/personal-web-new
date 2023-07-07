@@ -132,7 +132,7 @@ export const info = {
     {
       title: "Listas de reproducción",
       source: "https://music.youtube.com/channel/UC1Qwaf0hYL4Im88HIfSJ35w",
-      image: library,
+      image: record,
       sourcem: "",
       sourcep: "",
     },

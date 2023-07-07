@@ -4,10 +4,10 @@ import Terminal from "./Terminal";
 import { Box, Button } from "@mui/material";
 import { info } from "../../info/Info";
 
-export default function Quimica() {
+export default function Clec() {
   const firstName = info.firstName.toLowerCase();
 
-  function qui() {
+  function clec() {
     return (
       <>
         <p>
@@ -15,11 +15,11 @@ export default function Quimica() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{" "}
-          cat Quimica
+          cat CLEC
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
-            Quimica <span className={Style.green}>(main)</span> ${" "}
+            CLEC <span className={Style.green}>(main)</span> ${" "}
           </span>
           <span className={Style.green}>cat Clases_grabadas.txt</span>
           <p className={Style.white}>
@@ -28,52 +28,52 @@ export default function Quimica() {
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://youtu.be/u6j4qSChBs8"
+                href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtXXVBlxEj-QE7rClb-gYgd"
               >
-                Polimeros 22/06/2023
+                1er año 1er cuatri
               </Button>
             </p>
             <p>
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://youtu.be/DXkz4BdNon8"
+                href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuHFV93h2OINwKTzVlm92bc"
               >
-                Practica quimica 22/06/2023
+                1er año 2do cuatri
               </Button>
             </p>
             <p>
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://www.youtube.com/playlist?list=PLFSba7TrCbZVkHk52K2J0_nXRwLNQYGTF"
+                href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtcBVeHkNgf8-fZV15XtPs5"
               >
-                Clases grabadas 2021
+                2do año 1er cuatri
               </Button>
             </p>
             <p>
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://drive.google.com/drive/folders/11ZGMfwcLeyqFgh4ZOxlkwWMBIeiOY1EF"
+                href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuNU8KG8M83baPAyOKANAbC"
               >
-                Otras clases grabadas
+                2do año 2do cuatri
               </Button>
             </p>
           </p>
           <span style={{ color: info.baseColor }}>
-            Quimica <span className={Style.green}>(main)</span> ${" "}
+            CLEC <span className={Style.green}>(main)</span> ${" "}
           </span>
-          <span className={Style.green}>cat Drive_quimica.txt</span>
+          <span className={Style.green}>cat Drive_CLEC.txt</span>
           <p className={Style.white}>
-            <span className={Style.green}>Drive_quimica.txt</span>
+            <span className={Style.green}>Drive_CLEC.txt</span>
             <p>
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://drive.google.com/drive/folders/15w5pfsG1QTrKp2rGxyYi1ljQ4BUBiA7H"
+                href="https://drive.google.com/drive/folders/1X-XPUJMqKL2g-_eSwOXcX-5C_uZTIoNA?usp=sharing"
               >
-                Drive quimica
+                Libros
               </Button>
             </p>
           </p>
@@ -89,7 +89,7 @@ export default function Quimica() {
       alignItems={"center"}
       mt={"3rem"}
     >
-      <Terminal text={qui()} />
+      <Terminal text={clec()} />
     </Box>
   );
 }
