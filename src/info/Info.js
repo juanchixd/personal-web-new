@@ -108,7 +108,7 @@ export const info = {
     {
       title: "Drive biblioteca digital",
       source:
-        "https://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J",
+        "https://drive.google.com/drive/folders/1MMJEkSGnSXTJJnygafVB97gNpx1mcNLJ",
       image: library,
       sourcem: "",
       sourcep: "",
@@ -116,7 +116,7 @@ export const info = {
     {
       title: "Le Piñat (ECA)",
       source:
-        "https://drive.google.com/drive/folders/1dV9xHOzA3Lu1PiOI62ugBYOl2prckvaA",
+        "https://drive.google.com/drive/folders/1Opq6SAXadLD_5RqCVl7dUk_85DtBo4sM",
       image: eca,
       sourcem: "https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA",
       sourcep: "",
