@@ -1,4 +1,4 @@
-import self from "../pic/profile.png";
+import self from "../pic/profile.webp";
 import student from "../pic/Student.png";
 import library from "../pic/Library.png";
 import eca from "../pic/ECA.png";
