@@ -60,7 +60,7 @@ export default function Quimica() {
                 Otras clases grabadas
               </Button>
             </p>
-                  <p>
+            <p>
               <Button
                 variant="outlined"
                 size="medium"
@@ -69,32 +69,31 @@ export default function Quimica() {
                 Otras clases grabadas mas 1
               </Button>
             </p>
-                  </p>
-                  <p>
-              <Button
-                variant="outlined"
-                size="medium"
-                href="https://www.youtube.com/playlist?list=PLTfMwNuinRONEmCc_0EXdI2ekwwr69QT1"
-              >
-                Otras clases grabadas mas 2
-              </Button>
-            </p>
           </p>
-          <span style={{ color: info.baseColor }}>
-            Quimica <span className={Style.green}>(main)</span> ${" "}
-          </span>
-          <span className={Style.green}>cat Drive_quimica.txt</span>
-          <p className={Style.white}>
-            <span className={Style.green}>Drive_quimica.txt</span>
-            <p>
-              <Button
-                variant="outlined"
-                size="medium"
-                href="https://drive.google.com/drive/folders/15w5pfsG1QTrKp2rGxyYi1ljQ4BUBiA7H"
-              >
-                Drive quimica
-              </Button>
-            </p>
+          <p>
+            <Button
+              variant="outlined"
+              size="medium"
+              href="https://www.youtube.com/playlist?list=PLTfMwNuinRONEmCc_0EXdI2ekwwr69QT1"
+            >
+              Otras clases grabadas mas 2
+            </Button>
+          </p>
+        </p>
+        <span style={{ color: info.baseColor }}>
+          Quimica <span className={Style.green}>(main)</span> ${" "}
+        </span>
+        <span className={Style.green}>cat Drive_quimica.txt</span>
+        <p className={Style.white}>
+          <span className={Style.green}>Drive_quimica.txt</span>
+          <p>
+            <Button
+              variant="outlined"
+              size="medium"
+              href="https://drive.google.com/drive/folders/15w5pfsG1QTrKp2rGxyYi1ljQ4BUBiA7H"
+            >
+              Drive quimica
+            </Button>
           </p>
         </p>
       </>
