@@ -68,7 +68,7 @@ export default function BaseLayout() {
             width={"100%"}
           >
             <p>
-              Created with &hearts; by{" "}
+              Created with 🧉 by{" "}
               <a href={"https://juangonzalez.com.ar"}>Juan Gonzalez</a>
             </p>
             <p>© {new Date().getFullYear()}</p>
