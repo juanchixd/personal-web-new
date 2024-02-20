@@ -9,7 +9,7 @@ export const info = {
   firstName: "Juan",
   lastName: "Gonzalez",
   initials: "JG",
-  position: "Programmer part-time",
+  position: "Part-time programmer",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
