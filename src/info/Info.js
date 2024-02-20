@@ -63,7 +63,7 @@ export const info = {
       label: "linkedin",
     },
   ],
-  bio: "Hello! I'm Juan. I'm a student of Electronic Engineering at UNR. I'm passionate about programming and technology. I'm currently working as a programmer part-time in a small project. I'm looking for new challenges and opportunities to grow as a professional.",
+  bio: "Hello! I'm Juan. I'm a student of Electronic Engineering at UNR. I'm passionate about programming and technology. I'm currently working as a part-time programmer in a small project. I'm looking for new challenges and opportunities to grow as a professional.",
   skills: {
     proficientWith: ["python", "git", "github", "c", "c++", "linux", "bash"],
   },
