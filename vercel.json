@@ -26,6 +26,11 @@
       "permanent": true
     },
     {
+      "source": "/em",
+      "destination": "https://drive.google.com/drive/folders/17B3P8JGncB76lqLNZSv2bDZGv74fyhSi",
+      "permanent": true
+    },
+    {
       "source": "/f1",
       "destination": "https://drive.google.com/drive/folders/1-87IJ4HCMV6h6ZVsIR32o9w59JSwcTil",
       "permanent": true
@@ -41,6 +46,11 @@
       "permanent": true
     },
     {
+      "source": "/fisde",
+      "destination": "https://drive.google.com/drive/folders/1XqWfRzDA0UKOfMBIhnTh203XU7VxVH28",
+      "permanent": true
+    },
+    {
       "source": "/ma",
       "destination": "https://drive.google.com/drive/folders/148e_ner0p_5kjOU_rp_hFSQdxpzQn5hC",
       "permanent": true
@@ -53,6 +63,11 @@
     {
       "source": "/q",
       "destination": "https://drive.google.com/drive/folders/15w5pfsG1QTrKp2rGxyYi1ljQ4BUBiA7H",
+      "permanent": true
+    },
+    {
+      "source": "sys1",
+      "destination": "https://drive.google.com/drive/folders/1Sflns4w4IK9O0reHPg7Sl7X8J4dKmXf8",
       "permanent": true
     },
     {
