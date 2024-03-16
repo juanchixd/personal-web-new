@@ -37,21 +37,21 @@ export const info = {
       icon: "fa fa-telegram",
       label: "telegram",
     },
-    {
-      link: "https://vsco.co/juanchi1020",
-      icon: "vsco",
-      label: "vsco",
-    },
-    {
-      link: "https://facebook.com/juanchi.b.gonzalez",
-      icon: "fa fa-facebook",
-      label: "facebook",
-    },
-    {
-      link: "https://instagram.com/juanchi1020",
-      icon: "fa fa-instagram",
-      label: "instagram",
-    },
+    // {
+    //   link: "https://vsco.co/juanchi1020",
+    //   icon: "vsco",
+    //   label: "vsco",
+    // },
+    // {
+    //   link: "https://facebook.com/juanchi.b.gonzalez",
+    //   icon: "fa fa-facebook",
+    //   label: "facebook",
+    // },
+    // {
+    //   link: "https://instagram.com/juanchi1020",
+    //   icon: "fa fa-instagram",
+    //   label: "instagram",
+    // },
     {
       link: "https://github.com/juanchixd",
       icon: "fa fa-github",

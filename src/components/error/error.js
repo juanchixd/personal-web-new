@@ -1,5 +1,8 @@
 import React from "react";
 import Style from "./error.module.scss";
+import Delorean from "../../pic/Delorean.png";
+import BackToTheFuture from "../../pic/backToTheHomepage.png";
+
 // import Link from "next/link";
 
 export default function MyCustom404() {
@@ -7,14 +10,8 @@ export default function MyCustom404() {
     <body>
       <section className={Style.notFound}>
         <div className={Style.img}>
-          <img
-            src="https://assets.codepen.io/5647096/backToTheHomepage.png"
-            alt="Back to the Homepage"
-          />
-          <img
-            src="https://assets.codepen.io/5647096/Delorean.png"
-            alt="El Delorean, El Doc y Marti McFly"
-          />
+          <img src={BackToTheFuture} alt="Back to the Homepage" />
+          <img src={Delorean} alt="El Delorean, El Doc y Marti McFly" />
         </div>
         <div className={Style.text}>
           <h1>404</h1>
