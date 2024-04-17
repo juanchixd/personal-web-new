@@ -71,7 +71,7 @@ export default function Clec() {
               <Button
                 variant="outlined"
                 size="medium"
-                href="https://drive.google.com/drive/folders/1X-XPUJMqKL2g-_eSwOXcX-5C_uZTIoNA?usp=sharing"
+                href="https://cloud.juangonzalez.com.ar/s/JGPpXdTAbVU6VFQ"
               >
                 Libros
               </Button>
