@@ -84,6 +84,11 @@
       "source": "/lepiniat",
       "destination": "https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA",
       "permanent": true
+    },
+    {
+      "source": "/ane",
+      "destination": "https://drive.google.com/drive/folders/1gSCaVfmBdGdicFox7T4oqP0wYfYUGEBC?usp=drive_link",
+      "permanent": true
     }
   ]
 }
