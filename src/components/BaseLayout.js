@@ -6,7 +6,6 @@ import About from "./about/About";
 // import Portfolio from "./portfolio/Portfolio";
 import Links from "./links/Links";
 import Error from "./error/error";
-import Recordings from "./recordings/Recordings";
 import Q from "./q/q";
 import Clec from "./clec/clec";
 import { Route, Routes, Navigate } from "react-router-dom";
@@ -50,7 +49,6 @@ export default function BaseLayout() {
             <Route exact path={"/about"} element={<About />} />
             {/* <Route exact path={"/portfolio"} element={<Portfolio />} /> */}
             <Route exact path={"/clec"} element={<Clec />} />
-            <Route exact path={"/recordings"} element={<Recordings />} />
             <Route exact path={"/links"} element={<Links />} />
             <Route exact path={"/quimica"} element={<Q />} />
             <Route exact path={"/404"} element={<Error />} />

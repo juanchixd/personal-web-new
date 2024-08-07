@@ -136,56 +136,5 @@ export const info = {
       sourcem: "",
       sourcep: "",
     },
-    {
-      title: "Grabaciones",
-      image: record,
-      sourcem: "",
-      source: "",
-      sourcep: "/recordings",
-    },
-  ],
-  recordings: [
-    {
-      title: "Algebra lineal",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPtgUX1awj90MxOgBjzn2N1q",
-      image: record,
-    },
-    {
-      title: "Fisica I",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPuyuIoZuEHtavMY6Yxh-vlP",
-      image: record,
-    },
-    {
-      title: "Fisica II",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPuwxxQ835w7h8-DlSdQ3ZRo",
-      image: record,
-    },
-    {
-      title: "Informatica Aplicada ECA",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPuubowDTFcbDircn99CFqQi",
-      image: record,
-    },
-    {
-      title: "Matematica Aplicada (2do cuatri 2022)",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPuIndCYD2gjYmy3TKylN3lf",
-      image: record,
-    },
-    {
-      title: "Matematica Aplicada (1er cuatri 2023)",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPtPV6skK5uLppONIma7njE1",
-      image: record,
-    },
-    {
-      title: "Probabilidad y estadística",
-      source:
-        "https://www.youtube.com/playlist?list=PLvZC6KXjYqPsPmcvj4OdzI9s5xpLB0gJi",
-      image: record,
-    },
   ],
 };
