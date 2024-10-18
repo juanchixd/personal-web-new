@@ -113,14 +113,14 @@ export const info = {
       sourcem: "",
       sourcep: "",
     },
-    {
-      title: "Le Piñat (ECA)",
-      source:
-        "https://drive.google.com/drive/folders/1Opq6SAXadLD_5RqCVl7dUk_85DtBo4sM",
-      image: eca,
-      sourcem: "https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA",
-      sourcep: "",
-    },
+    //{
+    //  title: "Le Piñat (ECA)",
+    //  source:
+    //    "https://drive.google.com/drive/folders/1Opq6SAXadLD_5RqCVl7dUk_85DtBo4sM",
+    //  image: eca,
+    //  sourcem: "https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA",
+    //  sourcep: "",
+    //},
     {
       title: "Libros",
       source:
