@@ -2,6 +2,7 @@ import React from "react";
 import "./App.module.scss";
 import BaseLayout from "./components/BaseLayout";
 import { BrowserRouter } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 // import { Analytics } from "@vercel/analytics/react";
 
 // <Analytics mode={"production"} />;
@@ -25,6 +26,7 @@ function App() {
       <BrowserRouter>
         <BaseLayout />
       </BrowserRouter>
+      <SpeedInsights />
     </div>
   );
 }

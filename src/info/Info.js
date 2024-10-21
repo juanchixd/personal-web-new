@@ -1,7 +1,7 @@
 import self from "../pic/profile.png";
 import student from "../pic/Student.png";
 import library from "../pic/Library.png";
-import eca from "../pic/ECA.png";
+// import eca from "../pic/ECA.png";
 import record from "../pic/recording.png";
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
